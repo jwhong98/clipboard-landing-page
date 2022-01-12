@@ -1,4 +1,9 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-size: 18px;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
 }
