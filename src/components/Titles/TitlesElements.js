@@ -18,7 +18,7 @@ export const Title = styled.h2`
 `;
 
 export const Description = styled.p`
-  margin-top: 1.5rem;
+  margin-top: 0.75rem;
   font-size: 0.9rem;
   color: hsl(201, 11%, 66%);
 `;

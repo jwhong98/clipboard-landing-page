@@ -6,6 +6,11 @@ export const Item = styled.li`
   margin-bottom: 2rem;
 `;
 
+export const Img = styled.img`
+  display: ${(props) => (!props.img ? "none" : "")};
+  margin-bottom: 2rem;
+`;
+
 export const Title = styled.h3`
   font-size: 1.25rem;
   color: hsl(210, 10%, 33%);

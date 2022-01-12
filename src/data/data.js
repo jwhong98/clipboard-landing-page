@@ -27,6 +27,7 @@ export const sectionFour = {
 
 export const itemOne = {
   id: 5,
+  img: false,
   title: "Quick Search",
   description:
     "Easily search your snippets by content, category, web address, application, and more.",
@@ -34,13 +35,42 @@ export const itemOne = {
 
 export const itemTwo = {
   id: 6,
+  img: false,
   title: "iCloud Sync",
   description: "Instantly saves and syncs snippets across all your devices.",
 };
 
 export const itemThree = {
   id: 7,
+  img: false,
   title: "Complete History",
   description:
     "Retrieve any snippets from the first moment you started using the app",
+};
+
+export const itemFour = {
+  id: 7,
+  img: true,
+  src: require("../images/icon-blacklist.svg").default,
+  title: "Create blacklists",
+  description:
+    "Ensure sensitive information never makes its way to your clipboard by excluding certain sources.",
+};
+
+export const itemFive = {
+  id: 7,
+  img: true,
+  src: require("../images/icon-text.svg").default,
+  title: "Plain text snippets",
+  description:
+    "Remove unwanted formatting from copied text for a consistent look.",
+};
+
+export const itemSix = {
+  id: 7,
+  img: true,
+  src: require("../images/icon-preview.svg").default,
+  title: "Sneak preview",
+  description:
+    "Quick preview of all snippets on your Clipboard for easy access.",
 };
