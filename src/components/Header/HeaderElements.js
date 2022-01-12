@@ -6,6 +6,7 @@ export const HeadContainer = styled.section`
   flex-direction: column;
   align-items: center;
   background-image: url(${img});
+  background-size: 100%;
   background-repeat: no-repeat;
   padding: 1.75rem;
 `;
